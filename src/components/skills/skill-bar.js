@@ -19,6 +19,7 @@ export default styled(SkillBar)`
   .skill__bar {
     height: 10px;
     background-color: lightgrey;
+    margin-top:4px;
     padding: 1px;
   }
   .skill__level {

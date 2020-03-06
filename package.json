@@ -3,7 +3,7 @@
   "private": true,
   "description": "A simple starter to get up and developing your digital curriculum with GatsbyJS",
   "version": "0.0.1",
-  "author": "Francisco Santos <yoshi.df@gmail.com>",
+  "author": "대한민국 서울 <lovesun19@gmail.com>",
   "dependencies": {
     "babel-plugin-styled-components": "1.10.0",
     "gatsby": "2.4.2",
@@ -35,7 +35,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/santosfrancisco/gatsby-starter-cv"
+    "url": "https://github.com/gspark-danbi/gatsby-cv"
   },
   "bugs": {
     "url": "https://github.com/santosfrancisco/gatsby-starter-cv/issues"

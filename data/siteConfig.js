@@ -1,50 +1,54 @@
 module.exports = {
-  siteTitle: "Hi! I'm Alvaro!",
+  siteTitle: "Hi! I'm Gyeseong Park!",
   siteDescription: `This is my personal website`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
-  authorName: 'Alvaro Jimenez',
+  authorName: 'Gyeseong Park',
   twitterUsername: 'ajimenezdev',
-  githubUsername: 'ajimenezdev',
+  githubUsername: 'gs-park',
   authorAvatar: '/images/avatar.jpg',
   authorDescription: `I'm a full-stack JS developer, currently focused in React/React Native development and blockchain solutions.<br/><br/>
   I worked in multiple stacks (React, AngularJs, .Net, Java, Android...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
   I currently work remotely as a frontend developer and mainly working with <strong>Javascript, React/ReactNative, NodeJS and Blockchain.</strong>`,
   skills: [
     {
-      name: 'HTML',
-      level: 90,
+      name: 'Programming Language / Methodology',
+      level: 0,
     },
     {
-      name: 'CSS',
-      level: 85,
+      name: 'Javascript, C#, Delphi, GraphQL, HTML, CSS',
+      level: 100,
     },
     {
-      name: 'Javascript',
-      level: 90,
+      name: 'Framework / Library',
+      level: 0,
     },
     {
-      name: 'React',
-      level: 85,
+      name: 'Node.js, PHP, jQuery, Bootstrap, Sequelize, DataLoader, Gatsby',
+      level: 100,
     },
     {
-      name: 'ReactNative',
-      level: 80,
+      name: 'Server',
+      level: 0,
     },
     {
-      name: 'NodeJs',
-      level: 40,
+      name: 'MsSQL, MySQL, Apache',
+      level: 100,
     },
     {
-      name: 'Git',
-      level: 75,
+      name: 'Tooling',
+      level: 0,
     },
     {
-      name: 'Bitcoin',
-      level: 30,
+      name: 'GitHub',
+      level: 100,
     },
     {
-      name: 'Ethereum & smartcontract',
-      level: 30,
+      name: 'Environment',
+      level: 0,
+    },
+    {
+      name: 'AWS EC2, Linux, Windows',
+      level: 100,
     },
   ],
   jobs: [
@@ -223,9 +227,9 @@ module.exports = {
     },
   ],
   siteUrl: 'https://alvarojimenezmartin.com',
-  pathPrefix: '/gatsby-starter-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/gatsby-cv', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
-  googleAnalyticsId: 'UA-4492763-3',
+  googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
