@@ -1,51 +1,54 @@
 module.exports = {
-  siteTitle: "Hi! I'm Gyeseong Park!",
+  siteTitle: "Gyeseong Park!",
   siteDescription: `This is my personal website`,
   keyWords: ['gatsbyjs', 'react', 'curriculum'],
   authorName: 'Gyeseong Park',
   twitterUsername: 'ajimenezdev',
   githubUsername: 'gs-park',
   authorAvatar: '/images/avatar.jpg',
-  authorDescription: `I'm a full-stack JS developer, currently focused in React/React Native development and blockchain solutions.<br/><br/>
-  I worked in multiple stacks (React, AngularJs, .Net, Java, Android...), environments and types of companies (Startup, medium size and big corporate).<br/><br/>
-  I currently work remotely as a frontend developer and mainly working with <strong>Javascript, React/ReactNative, NodeJS and Blockchain.</strong>`,
+  authorDescription: `Back-end Developer <br/><br/> 현재 o2o서비스 플랫폼을 개발중에 있으며  ( Node.js, Graphql, React, Mysql ...) 환경에서 협업하고있습니다.  <br/><br/>
+  </strong>`,
   skills: [
-    {
-      name: 'Programming Language / Methodology',
-      level: 0,
-    },
+    // {
+    //   name: 'Programming Language / Methodology',
+    //   level: 0,
+    // },
     {
       name: 'Javascript, C#, Delphi, GraphQL, HTML, CSS',
       level: 100,
     },
+    // {
+    //   name: 'Framework / Library',
+    //   level: 0,
+    // },
     {
-      name: 'Framework / Library',
-      level: 0,
-    },
-    {
-      name: 'Node.js, PHP, jQuery, Bootstrap, Sequelize, DataLoader, Gatsby',
+      name: 'Node.js, PHP, jQuery, Bootstrap',
       level: 100,
     },
     {
-      name: 'Server',
-      level: 0,
+      name: ' Sequelize, DataLoader, Gatsby',
+      level: 100,
     },
+    // {
+    //   name: 'Server',
+    //   level: 0,
+    // },
     {
       name: 'MsSQL, MySQL, Apache',
       level: 100,
     },
-    {
-      name: 'Tooling',
-      level: 0,
-    },
+    // {
+    //   name: 'Tooling',
+    //   level: 0,
+    // },
     {
       name: 'GitHub',
       level: 100,
     },
-    {
-      name: 'Environment',
-      level: 0,
-    },
+    // {
+    //   name: 'Environment',
+    //   level: 0,
+    // },
     {
       name: 'AWS EC2, Linux, Windows',
       level: 100,
@@ -270,3 +273,5 @@ module.exports = {
     // },
   ],
 }
+
+ 
