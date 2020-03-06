@@ -227,7 +227,7 @@ module.exports = {
     },
   ],
   siteUrl: 'https://alvarojimenezmartin.com',
-  pathPrefix: '/gatsby-cv', // Note: it must *not* have a trailing slash.
+  pathPrefix: '/gs-park-portfolio', // Note: it must *not* have a trailing slash.
   siteCover: '/images/cover.jpeg',
   googleAnalyticsId: '',
   background_color: '#ffffff',
