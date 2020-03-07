@@ -233,7 +233,7 @@ module.exports = {
       location: 'Seoul',
       occupation: 'Lead Developer',
       description:
-        'CAND ONE : 10대들을 위한 쇼핑몰 APP ( 참여율 100% )',
+        'CANDY ONE : 10대들을 위한 쇼핑몰 APP ( 참여율 100% )',
     },
     {
       company: 'Danbi',
