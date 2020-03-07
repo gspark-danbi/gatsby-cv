@@ -56,100 +56,232 @@ module.exports = {
   ],
   jobs: [
     {
-      company: 'Bitfinex',
+      company: 'Danbi',
       begin: {
-        month: 'oct',
-        year: '2019',
+        month: '03',
+        year: '2020',
       },
       duration: null,
-      location: 'Remote',
-      occupation: 'Mobile Engineer',
+      location: 'Seoul',
+      occupation: 'Back-end developer',
       description:
-        'Working mainly with ReactNative as part of the Mobile development team, handling any task related to improve or fix existing features and developing new ones.',
+        'ORDER.FI Ver 1.6: 앱 설치를 하지 않고 유무선 공유기를 통한 매장내 주문관리 플랫폼',
     },
     {
-      company: 'Lifelabs.io',
+      company: 'Danbi',
       begin: {
-        month: 'may',
+        month: '02',
+        year: '2020',
+      },
+      duration: '1 month',
+      location: 'seoul',
+      occupation: 'Lead Developer',
+      description:
+        'AD.FI BrandGroup AMIN : 유무선 공유기를 통한 광고 플랫폼 관리자페이지 개발 ( 1인 PROJECT )',
+    },
+    {
+      company: 'Danbi',
+      begin: {
+        month: '11',
+        year: '2019',
+      },
+      duration: '3 months',
+      location: 'seoul',
+      occupation: 'Lead Developer',
+      description:
+        'AD.FI : 유무선 공유기를 통한 광고 플랫폼 Ver 1.5 개발 ( Back-end: 참여율 100% , Front-end : 참여율 : 50% )',
+    },
+    {
+      company: 'Danbi',
+      begin: {
+        month: '09',
+        year: '2019',
+      },
+      duration: '2 months',
+      location: 'seoul',
+      occupation: 'Lead Developer',
+      description:
+        'AD.FI Singapore Ver : 해외용 유무선 공유기 광고 플랫폼 개발 ( Back-end: 참여율 100% , Front-end : 참여율 : 50% )',
+    },
+    {
+      company: 'Danbi',
+      begin: {
+        month: '06',
+        year: '2019',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'WAIT.FI  : 매장내 웨이팅 솔루션 시스템 ( Back-end: 참여율 100% , Front-end : 참여율 : 50% )',
+    },
+    {
+      company: 'Danbi',
+      begin: {
+        month: '03',
+        year: '2019',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'ORDER.FI : 앱 설치를 하지 않고 유무선 공유기를 통한 매장내 주문관리 플랫폼 ( Back-end: 참여율 100% , Front-end : 참여율 : 100%, Windows APP : 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '12',
         year: '2018',
       },
-      duration: '1 years and 5 months',
-      location: 'UK - Remote',
-      occupation: 'Lead Frontend Developer',
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer ',
       description:
-        'I joined the company as one of the main developers, leading the frontend and mobile app development and helping with the architecture and coordination of the backend and blokchain teams.',
+        'PAYCOOP SNS 쇼핑몰 : ( Back-end: 참여율 100% ) ',
     },
     {
-      company: 'Flipper',
+      company: 'Danbi',
       begin: {
-        month: 'oct',
+        month: '09',
+        year: '2018',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'KIOSK : 제주도를 방문하는 해외 여행객들을 위한 무인 티켓 발권 앱  ( Back-end: 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '06',
+        year: '2018',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'SQRAP : 유명 커뮤니티를 통합한 커뮤니티 ( Back-end: 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '05',
+        year: '2018',
+      },
+      duration: '1 month',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'Eco-peace : 홈페이지 제작 ( Back-end: 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '02',
+        year: '2018',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'Helpus : 청소 예약 관리 APP ( Back-end: 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '11',
+        year: '2017',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'Wenicle : 청소 예약 관리 APP ( Back-end: 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '08',
+        year: '2017',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'Wenicle : 청소 예약 관리  ( Back-end: 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '07',
+        year: '2017',
+      },
+      duration: '1 month',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'C2 soft : Table Manager APP에서 사용할 비인증 결제 모듈 개발 ( 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '04',
+        year: '2017',
+      },
+      duration: '3 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'Red Table : 대학가 식당 오더 시스템 ( 참여율 100% )',
+    },
+    {
+      company: 'Danbi 외주',
+      begin: {
+        month: '11',
+        year: '2016',
+      },
+      duration: '5 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
+      description:
+        'CAND ONE : 10대들을 위한 쇼핑몰 APP ( 참여율 100% )',
+    },
+    {
+      company: 'Danbi',
+      begin: {
+        month: '10',
         year: '2015',
       },
-      duration: '2 years and 7 months',
-      location: 'London, UK',
-      occupation: 'Senior Developer',
+      duration: '1 YEAR',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
       description:
-        'I joined the company as one of the first 5 employees, I have been involved in all technical areas (backend, frontend, db, devops, bi) but with a higher responsibility on frontend, which I was leading inside the team',
+        'Luyou : 해외 관광객들을 위한 메뉴 주문 결제 APP (Back-end 참여율 100% )',
     },
     {
-      company: 'Radisson Blu Edwardian London',
+      company: 'GoldLime',
       begin: {
-        month: 'oct',
-        year: '2013',
+        month: '05',
+        year: '2015',
       },
-      duration: '2 years',
-      location: 'London, UK',
-      occupation: 'Software developer',
+      duration: '5 months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
       description:
-        'Responsible for the implementation and parameterization of the system, training and customer support. Acting also in person in real estate launches guaranteeing the success and good use of the tool.',
+        '문질러 : 모바일 광고 APP (Back-end 참여율 60% )',
     },
     {
-      company: 'HotelBeds',
+      company: 'Hanjin.enc',
       begin: {
-        month: 'oct',
-        year: '2012',
-      },
-      duration: '1 year',
-      location: 'Majorca, Spain',
-      occupation: 'Software developer',
-      description:
-        'Member of a team in charge to create a new website to sell complementary holidays tickets and excursions, integrated inside the existing booking engine.',
-    },
-    {
-      company: 'Brujula',
-      begin: {
-        month: 'feb',
-        year: '2012',
-      },
-      duration: '7 months',
-      location: 'Majorca, Spain',
-      occupation: 'Junior developer',
-      description:
-        'Working in a team for a third party company as a development house, in charge of their intranet site to manage all the information about new customers, employees, keep the stock up to date and some other small applications.',
-    },
-    {
-      company: 'Bizzit',
-      begin: {
-        month: 'jul',
-        year: '2010',
-      },
-      duration: '3 months',
-      location: 'Majorca, Spain',
-      occupation: 'Intern developer',
-      description:
-        'Summer internship, Working with the company intranet site, creating new features and fixing some of the existing bugs.',
-    },
-    {
-      company: 'Bizzit',
-      begin: {
-        month: 'jul',
+        month: '12',
         year: '2009',
       },
-      duration: '3 months',
-      location: 'Majorca, Spain',
-      occupation: 'Intern developer',
+      duration: '5Years and 6months',
+      location: 'Seoul',
+      occupation: 'Lead Developer',
       description:
-        'Summer internship, Working with the company intranet site, creating new features and fixing some of the existing bugs.',
+        '교통관제 시스템 : 교차로내 설치된 제어기 원격 관리 관제 시스템',
     },
   ],
   publications: [
@@ -178,11 +310,11 @@ module.exports = {
   ],
   education: [
     {
-      school: 'University of Balearic Islands',
+      school: 'ChungKang College of Cultural Industries',
       degree: 'Bachelor degree',
       field: 'Software Engineering',
-      startYear: 2006,
-      endYear: 2011,
+      startYear: 2004,
+      endYear: 2010,
     },
   ],
   languages: [
@@ -204,21 +336,21 @@ module.exports = {
   social: {
     twitter: 'https://twitter.com/ajimenezdev/',
     linkedin: 'https://www.linkedin.com/in/alvarojimenezmartin/',
-    github: 'https://github.com/ajimenezdev/',
-    email: 'ajmjimens@gmail.com',
+    github: 'https://github.com/gs-park/',
+    email: 'lovesun19@gmail.com',
   },
   hobbies: [
     {
-      name: 'Football',
-      icon: 'FaFutbol',
+      name: 'Camping',
+      icon: 'FaFreeCodeCamp',
     },
     {
-      name: 'Photography',
-      icon: 'FaCamera',
+      name: 'Music',
+      icon: 'FaItunesNote',
     },
     {
-      name: 'Hiking',
-      icon: 'FaHiking',
+      name: 'Book',
+      icon: 'FaBook',
     },
     {
       name: 'Traveling',
@@ -229,14 +361,14 @@ module.exports = {
       icon: 'FaTv',
     },
   ],
-  siteUrl: 'https://alvarojimenezmartin.com',
+  siteUrl: 'https://gspark-danbi.github.io/gs-park-portfolio/',
   pathPrefix: '/gs-park-portfolio', // Note: it must *not* have a trailing slash.
-  siteCover: './images/cover.jpeg',
+  siteCover: './images/cover2.jpg',
   googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#25303B',
   display: 'minimal-ui',
-  icon: 'src/favicon.jpg',
+  icon: 'src/favicon.png',
   resume: '/resume_alvaro_jimenez.pdf',
   headerLinks: [
     // {
@@ -254,10 +386,6 @@ module.exports = {
     {
       label: 'Experience',
       url: 'experience',
-    },
-    {
-      label: 'Publications',
-      url: 'publications',
     },
     {
       label: 'Education',

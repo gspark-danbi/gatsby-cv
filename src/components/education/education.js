@@ -1,7 +1,6 @@
 import React from 'react'
 import styled from 'styled-components'
 import { FaUniversity } from 'react-icons/fa'
-import { FlagIcon } from 'react-flag-kit'
 import SectionTitle from '../sectionTitle'
 import siteConfig from '../../../data/siteConfig'
 
@@ -25,37 +24,13 @@ const Education = ({ className }) => {
                   </span>
                 </div>
                 <span className="education__edu-studies">
-                  {edu.degree}, {edu.field}
+                   {edu.field}
                 </span>
               </div>
               {idx < siteConfig.education.length - 1 && <hr />}
             </React.Fragment>
           ))}
-        {siteConfig.languages && (
-          <React.Fragment>
-            <h3>Languages</h3>
-            <ul>
-              {siteConfig.languages.map(({ code, language, level }) => (
-                <li key={`${code}-${language}`}>
-                  <div className="education__lang">
-                    {code && (
-                      <FlagIcon
-                        className="education__lang__flag"
-                        code={code}
-                        size={18}
-                      />
-                    )}
-                    <div
-                      className={code ? '' : 'education__lang__text--noflag'}
-                    >
-                      <strong>{language}:</strong> {level}.
-                    </div>
-                  </div>
-                </li>
-              ))}
-            </ul>
-          </React.Fragment>
-        )}
+        
       </div>
     </div>
   )

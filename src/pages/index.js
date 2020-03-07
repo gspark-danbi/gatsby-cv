@@ -3,9 +3,7 @@ import styled from 'styled-components'
 import { Container, Row, Col } from 'react-awesome-styled-grid'
 import {
   FaGithub,
-  FaLinkedin,
   FaEnvelope,
-  FaTwitter,
   FaFileAlt,
 } from 'react-icons/fa'
 import siteConfig from '../../data/siteConfig'
@@ -19,7 +17,6 @@ import {
   Skills,
   Timeline,
   Education,
-  Publications,
   Hobbies,
   // Contact,
 } from '../components'
@@ -68,26 +65,7 @@ class Home extends React.Component {
                         <FaGithub className="social-icon" size="32" />
                       </a>
                     )}
-                    {siteConfig.social.linkedin && (
-                      <a
-                        className="social-link linkedin"
-                        href={siteConfig.social.linkedin}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FaLinkedin className="social-icon" size="32" />
-                      </a>
-                    )}
-                    {siteConfig.social.twitter && (
-                      <a
-                        className="social-link twitter"
-                        href={siteConfig.social.twitter}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                      >
-                        <FaTwitter className="social-icon" size="32" />
-                      </a>
-                    )}
+                    
                     {siteConfig.social.email && (
                       <a
                         className="social-link email"
@@ -124,7 +102,6 @@ class Home extends React.Component {
               {/* <Separator />
             <Repositories /> */}
               <Separator />
-              <Publications />
               <Separator />
               <Education />
               <Separator />
