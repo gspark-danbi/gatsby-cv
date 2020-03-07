@@ -357,7 +357,7 @@ module.exports = {
   theme_color: '#25303B',
   display: 'minimal-ui',
   icon: 'src/favicon.png',
-  resume: '/resume_alvaro_jimenez.pdf',
+  resume: '/resume_gyeseong_park.pdf',
   headerLinks: [
     // {
     //   label: 'Alvaro Jimenez Martin',
