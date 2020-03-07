@@ -190,26 +190,14 @@ module.exports = {
     {
       company: 'Danbi 외주',
       begin: {
-        month: '11',
+        month: '08',
         year: '2017',
       },
-      duration: '3 months',
+      duration: '6 months',
       location: 'Seoul',
       occupation: 'Lead Developer',
       description:
         'Wenicle : 청소 예약 관리 APP ( Back-end: 참여율 100% )',
-    },
-    {
-      company: 'Danbi 외주',
-      begin: {
-        month: '08',
-        year: '2017',
-      },
-      duration: '3 months',
-      location: 'Seoul',
-      occupation: 'Lead Developer',
-      description:
-        'Wenicle : 청소 예약 관리  ( Back-end: 참여율 100% )',
     },
     {
       company: 'Danbi 외주',
