@@ -5,7 +5,7 @@ module.exports = {
   authorName: 'Gyeseong Park',
   twitterUsername: 'ajimenezdev',
   githubUsername: 'gs-park',
-  authorAvatar: '/images/avatar.jpg',
+  authorAvatar: './images/gs-park.jpeg',
   authorDescription: `Back-end Developer <br/><br/> 현재 o2o서비스 플랫폼을 개발중에 있으며  ( Node.js, Graphql, React, Mysql ...) 환경에서 협업하고있습니다.  <br/><br/>
   </strong>`,
   skills: [
@@ -231,7 +231,7 @@ module.exports = {
   ],
   siteUrl: 'https://alvarojimenezmartin.com',
   pathPrefix: '/gs-park-portfolio', // Note: it must *not* have a trailing slash.
-  siteCover: '/images/cover.jpeg',
+  siteCover: './images/cover.jpeg',
   googleAnalyticsId: '',
   background_color: '#ffffff',
   theme_color: '#25303B',

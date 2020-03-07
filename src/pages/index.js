@@ -32,14 +32,15 @@ const Separator = styled.hr`
 class Home extends React.Component {
   render() {
     // validate siteConfig settings
-    if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
-      console.error(
-        'WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.'
-      )
-    }
+    // if (siteConfig.googleAnalyticsId === 'UA-000000000-1') {
+    //   console.error(
+    //     'WARNING: Please set a proper googleAnalyticsId. See https://analytics.google.com for details.'
+    //   )
+    // }
 
     const title = siteConfig.siteTitle
     const { keywords } = siteConfig
+    const userImg = siteConfig.authorAvatar
     return (
       <div className={this.props.className}>
         <Layout location={this.props.location}>
@@ -53,7 +54,7 @@ class Home extends React.Component {
                 <Col xs={4} className="avatar">
                   <img
                     className="avatar__image"
-                    src="/images/avatar.jpg"
+                    src={userImg}
                     alt="user avatar"
                   />
                   <div className="social">

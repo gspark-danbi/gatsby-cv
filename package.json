@@ -35,7 +35,7 @@
     "build": "gatsby build",
     "develop": "gatsby develop",
     "start": "npm run develop",
-    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b master",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public -b gh-pages",
     "format": "prettier --write \"src/**/*.js\"",
     "test": "echo \"Write tests! -> https://gatsby.app/unit-testing\""
   },
@@ -45,7 +45,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/gspark-danbi/gatsby-cv"
+    "url": "https://github.com/gspark-danbi/gs-park-portfolio"
   },
   "bugs": {
     "url": "https://github.com/santosfrancisco/gatsby-starter-cv/issues"
