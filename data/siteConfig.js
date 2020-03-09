@@ -14,7 +14,7 @@ module.exports = {
     //   level: 0,
     // },
     {
-      name: 'Javascript, C#, Delphi, GraphQL, HTML, CSS',
+      name: 'Javascript, C#, Delphi, GraphQL, HTML5, CSS3',
       level: 100,
     },
     // {
