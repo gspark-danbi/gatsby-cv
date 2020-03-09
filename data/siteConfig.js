@@ -26,13 +26,13 @@ module.exports = {
       level: 100,
     },
     {
-      name: ' Sequelize, DataLoader, Gatsby',
+      name: ' Sequelize, DataLoader, Gatsby, React',
       level: 100,
     },
-    // {
-    //   name: 'Server',
-    //   level: 0,
-    // },
+    {
+      name: ' ExpressJS, EJS, ES6, TypeScript',
+      level: 100,
+    },
     {
       name: 'MsSQL, MySQL, Apache',
       level: 100,
@@ -42,7 +42,7 @@ module.exports = {
     //   level: 0,
     // },
     {
-      name: 'GitHub',
+      name: 'GitHub, Jest, Webpack, Gulp, PhotoShop, Babel',
       level: 100,
     },
     // {
@@ -50,7 +50,7 @@ module.exports = {
     //   level: 0,
     // },
     {
-      name: 'AWS EC2, Linux, Windows',
+      name: 'AWS EC2, AMI2, Windows',
       level: 100,
     },
   ],
