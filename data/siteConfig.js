@@ -66,6 +66,7 @@ module.exports = {
       occupation: 'Back-end developer',
       description:
         'ORDER.FI Ver 1.6: 앱 설치를 하지 않고 유무선 공유기를 통한 매장내 주문관리 플랫폼',
+      img: './images/order_1_6.png',
     },
     {
       company: 'Danbi',
@@ -78,6 +79,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'AD.FI BrandGroup AMIN : 유무선 공유기를 통한 광고 플랫폼 관리자페이지 개발 ( 1인 PROJECT )',
+      img: './images/brandgroup.png',
     },
     {
       company: 'Danbi',
@@ -90,6 +92,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'AD.FI : 유무선 공유기를 통한 광고 플랫폼 Ver 1.5 개발 ( Back-end: 참여율 100% , Front-end : 참여율 : 50% )',
+        img: './images/ad_1_5.png',
     },
     {
       company: 'Danbi',
@@ -102,6 +105,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'AD.FI Singapore Ver : 해외용 유무선 공유기 광고 플랫폼 개발 ( Back-end: 참여율 100% , Front-end : 참여율 : 50% )',
+      img: './images/ad_singapore.png',
     },
     {
       company: 'Danbi',
@@ -114,6 +118,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'WAIT.FI  : 매장내 웨이팅 솔루션 시스템 ( Back-end: 참여율 100% , Front-end : 참여율 : 50% )',
+      img: './images/waiting_user.png',
     },
     {
       company: 'Danbi',
@@ -126,6 +131,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'ORDER.FI : 앱 설치를 하지 않고 유무선 공유기를 통한 매장내 주문관리 플랫폼 ( Back-end: 참여율 100% , Front-end : 참여율 : 100%, Windows APP : 참여율 100% )',
+      img: './images/order.png',
     },
     {
       company: 'Danbi 외주',
@@ -138,6 +144,7 @@ module.exports = {
       occupation: 'Lead Developer ',
       description:
         'PAYCOOP SNS 쇼핑몰 : ( Back-end: 참여율 100% ) ',
+      img: './images/paycoop.png',
     },
     {
       company: 'Danbi',
@@ -150,6 +157,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'KIOSK : 제주도를 방문하는 해외 여행객들을 위한 무인 티켓 발권 앱  ( Back-end: 참여율 100% )',
+        img: './images/kiosk.png',
     },
     {
       company: 'Danbi 외주',
@@ -162,6 +170,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'SQRAP : 유명 커뮤니티를 통합한 커뮤니티 ( Back-end: 참여율 100% )',
+        img: './images/sqrap.png',
     },
     {
       company: 'Danbi 외주',
@@ -173,7 +182,8 @@ module.exports = {
       location: 'Seoul',
       occupation: 'Lead Developer',
       description:
-        'Eco-peace : 홈페이지 제작 ( Back-end: 참여율 100% )',
+        'Eco-peace : 홈페이지 제작 ',
+      img: './images/Eco-peace.png',
     },
     {
       company: 'Danbi 외주',
@@ -186,6 +196,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'Helpus : 청소 예약 관리 APP ( Back-end: 참여율 100% )',
+      img: './images/helpus.png',
     },
     {
       company: 'Danbi 외주',
@@ -234,6 +245,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'CANDY ONE : 10대들을 위한 쇼핑몰 APP ( 참여율 100% )',
+      img: './images/candyone.png',
     },
     {
       company: 'Danbi',
@@ -246,6 +258,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         'Luyou : 해외 관광객들을 위한 메뉴 주문 결제 APP (Back-end 참여율 100% )',
+      img: './images/luyou.png',
     },
     {
       company: 'GoldLime',
@@ -258,6 +271,7 @@ module.exports = {
       occupation: 'Lead Developer',
       description:
         '문질러 : 모바일 광고 APP (Back-end 참여율 60% )',
+      img: './images/goldlime.png',
     },
     {
       company: 'Hanjin.enc',

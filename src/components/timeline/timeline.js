@@ -34,6 +34,16 @@ const Timeline = ({ className }) => {
                 </small>
               </h2>
               <p>{job.description}</p>
+              <div className="imgdiv">
+                <img
+                className="timeimg"
+                src={job.img}
+                />
+                { job.img === "./images/order.png" &&
+                <video className="timevideo" controls src="./images/order_pos.mp4"/>
+                }
+              </div>
+              
             </div>
           </article>
         ))}
@@ -158,6 +168,21 @@ export default styled(Timeline)`
   }
   .timeline__item:nth-child(2n+2) div.inner h2:after {
     left: -5px;
+  }
+
+  .imgdiv {
+    text-align: center;
+  }
+
+  .timeimg {
+    text-align: center;
+    margin: 0px auto;
+    height: 225px;
+  }
+  .timevideo {
+    text-align: center;
+    margin: 0px auto;
+    width: 90%;
   }
 
   `}
